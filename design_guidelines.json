@@ -1,0 +1,184 @@
+{
+  "identity": {
+    "name": "E1 - The Anti-AI Designer",
+    "principles": [
+      "Fusion over Imitation",
+      "Emotion First",
+      "Content is King",
+      "Zoom In",
+      "Negative Space",
+      "Contrast"
+    ]
+  },
+  "project_context": {
+    "app_name": "SoftSync",
+    "description": "A monthly organization app with gender-adaptive theming and natural language processing.",
+    "target_audience": "General public seeking organization, specifically women for cycle tracking.",
+    "emotional_tone": "Soft, Calming, Intuitive, Personal, Organized.",
+    "design_vibe": "Soft Minimalism, Pastel & Soft Archetype, Rounded Geometries."
+  },
+  "typography": {
+    "font_family": {
+      "headings": "Nunito, sans-serif",
+      "body": "Manrope, sans-serif",
+      "mono": "JetBrains Mono, monospace"
+    },
+    "weights": {
+      "light": 300,
+      "regular": 400,
+      "medium": 500,
+      "bold": 700,
+      "black": 900
+    },
+    "usage_rules": [
+      "Headings (H1-H3) must use Nunito with tight tracking (-0.02em).",
+      "Body text must use Manrope for high legibility.",
+      "Use 'font-light' for large display text to feel elegant and airy.",
+      "Never use Inter for headings."
+    ]
+  },
+  "colors": {
+    "themes": {
+      "male": {
+        "description": "Warm Blue Tones - Calming, Stable, Trustworthy.",
+        "palette": {
+          "background": "#F0F4F8",
+          "foreground": "#334155",
+          "card": "#FFFFFF",
+          "card_foreground": "#334155",
+          "primary": "#475569",
+          "primary_foreground": "#F8FAFC",
+          "secondary": "#E2E8F0",
+          "secondary_foreground": "#1E293B",
+          "accent": "#38BDF8",
+          "accent_foreground": "#0F172A",
+          "border": "#CBD5E1",
+          "ring": "#94A3B8"
+        }
+      },
+      "female": {
+        "description": "Fresh Pink Tones - Nurturing, Soft, Vital.",
+        "palette": {
+          "background": "#FFF1F2",
+          "foreground": "#881337",
+          "card": "#FFFFFF",
+          "card_foreground": "#881337",
+          "primary": "#BE185D",
+          "primary_foreground": "#FFF1F2",
+          "secondary": "#FCE7F3",
+          "secondary_foreground": "#831843",
+          "accent": "#FB7185",
+          "accent_foreground": "#4C0519",
+          "border": "#FECDD3",
+          "ring": "#FDA4AF"
+        }
+      },
+      "neutral": {
+        "description": "Warm Neutral/White - Clean, Minimal, Blank Canvas.",
+        "palette": {
+          "background": "#FAFAF9",
+          "foreground": "#44403C",
+          "card": "#FFFFFF",
+          "card_foreground": "#44403C",
+          "primary": "#57534E",
+          "primary_foreground": "#FAFAF9",
+          "secondary": "#E7E5E4",
+          "secondary_foreground": "#292524",
+          "accent": "#D6D3D1",
+          "accent_foreground": "#1C1917",
+          "border": "#E7E5E4",
+          "ring": "#A8A29E"
+        }
+      }
+    },
+    "forbidden": [
+      "Purple gradients",
+      "Teal gradients",
+      "Pure Black (#000000)",
+      "Pure Grey (#808080)"
+    ]
+  },
+  "visual_enhancers": {
+    "radius": "1rem",
+    "shadows": {
+      "soft": "0 4px 20px -2px rgba(0, 0, 0, 0.05)",
+      "hover": "0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1)"
+    },
+    "glassmorphism": {
+      "enabled": true,
+      "classes": "bg-white/70 backdrop-blur-xl border border-white/20 shadow-sm"
+    },
+    "gradients": {
+      "usage": "Subtle, pastel gradients only. No harsh transitions.",
+      "example": "bg-gradient-to-br from-white to-background"
+    }
+  },
+  "layout_strategy": {
+    "grid_system": "Bento Grid (Asymmetric)",
+    "spacing": "Generous (2x standard). Use p-6, p-8, p-12.",
+    "container_style": "Rounded corners (rounded-2xl or rounded-3xl), soft borders.",
+    "mobile_first": true
+  },
+  "components": {
+    "buttons": {
+      "style": "Pill-shaped (rounded-full) or Soft Rect (rounded-xl).",
+      "interaction": "Scale down slightly on click (active:scale-95).",
+      "shadow": "Shadow-sm on default, Shadow-md on hover."
+    },
+    "cards": {
+      "style": "Flat with subtle border OR Soft Shadow. No heavy elevation.",
+      "padding": "p-6 or p-8"
+    },
+    "inputs": {
+      "style": "Soft background (bg-secondary/30), no harsh borders.",
+      "focus": "Ring-2 ring-offset-2 ring-primary/20"
+    },
+    "calendar": {
+      "style": "Central visual element. Large, airy cells.",
+      "current_day": "Circle highlight with primary color.",
+      "events": "Small colored dots or pill labels within cells."
+    },
+    "cycle_tracker": {
+      "visual": "Circular progress indicator (Donut chart style).",
+      "colors": "Use theme accent colors for fertility/period phases."
+    },
+    "notification_bubble": {
+      "style": "Floating element or Badge on bell icon.",
+      "animation": "Pulse effect when active."
+    }
+  },
+  "image_assets": {
+    "landing_hero": {
+      "url": "https://images.pexels.com/photos/1635974/pexels-photo-1635974.jpeg",
+      "alt": "Organized workspace with soft light",
+      "usage": "Hero section background or side image"
+    },
+    "abstract_bg_1": {
+      "url": "https://images.unsplash.com/photo-1762652345565-e38e420b6f30",
+      "alt": "Soft pastel 3D spheres",
+      "usage": "Subtle background texture or card decoration"
+    },
+    "abstract_bg_2": {
+      "url": "https://images.pexels.com/photos/7307568/pexels-photo-7307568.jpeg",
+      "alt": "Soft abstract shapes",
+      "usage": "Login/Auth page background"
+    }
+  },
+  "instructions_to_main_agent": [
+    "Implement a ThemeProvider that switches CSS variables based on user selection (male, female, neutral).",
+    "Use the provided color palettes to override Tailwind's base colors in the CSS variables.",
+    "Ensure the 'Add Event' modal features a large text area for natural language input.",
+    "The Cycle Tracker must be hidden for 'Male' and 'Other' users.",
+    "Use 'sonner' for all notifications.",
+    "Do not use default Shadcn styling; override radius and shadows to match the 'Soft' aesthetic.",
+    "For the 'Female' theme, ensure the cycle tracker is prominent in the dashboard.",
+    "Implement the 'Bento' grid for the dashboard layout: Calendar (large), Todo List (tall), Quick Add (small)."
+  ],
+  "universal_guidelines": [
+    "Avoid generic centered layouts.",
+    "Use z-index to create depth.",
+    "Micro-animations on all interactions.",
+    "No 'AI slop' aesthetics (generic gradients, robot emojis).",
+    "Accessibility: Ensure contrast ratios are met even with pastel colors."
+  ]
+}
